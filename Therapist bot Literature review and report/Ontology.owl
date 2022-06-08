@@ -1,0 +1,978 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/sonnylewis/ontologies/2020/2/untitled-ontology-12"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/sonnylewis/ontologies/2020/2/untitled-ontology-12">
+    <Prefix name="" IRI="http://www.semanticweb.org/sonnylewis/ontologies/2020/2/untitled-ontology-12"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Adjusted_Mutual_Info_Score"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adjusted_Rand_Score"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alpha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Applicable_NLP_tasks_to_Question-Answering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bag_of_Words"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bayesian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Building_Blocks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CART"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronological_Classification_or_Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chunksize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classification_Algorithms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classification_Evaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clustering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clustering_Algorithms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clustering_Evaluation_Measures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coherence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Competency_Questions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Completenss_Score"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confusion_Matrix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consistency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corpus_Work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cross_Validation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Science_Applications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Science_Concepts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Science_Processes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Science_Strategies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Visualization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decision_Tree-Based"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delivery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dialog-Flow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discourse_Controller_Module_Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Distance-Based"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Error_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expert_Systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feature_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frequency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GAN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geometric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group-Average_Agglomerative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hierarchical_Clustering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homogenity_Score"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hypothesis_Testing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ID3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information_Extraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Introduction_to_Machine_Learning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iterations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#K-Means"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#K-Nearest_Neighbor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kappa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Knowledge-base_Development"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Latent_Dirichlet_Allocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Machine_Learning_Applications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mark-up_Schemes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Model_Parameters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modeling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mutual_Information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NLP_Applications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neural_Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neural_Network-Based"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non-Hierarchical_Clustering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Number_of_Topics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ontology_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Partial_Parsing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Passes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pearson_chi-square_test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Probabilistic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Problem_Statement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Purpose_and_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Question-Answering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Question-Answering_Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Question_Answering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recommender_Systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rule-Based"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SOFM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQL_and_NoSQL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Semantics_and_Concepts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sentence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sentiment_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Silhouette"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Single-link"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statistical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T-test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tagging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tensorflow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Term-frequency_inverse_Document-frequency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Testing_and_Validation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Top-Down"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#V_measure_Score"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Word"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AWS:_Logistic_Regression_Evaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classification_Case_Study:_Delivery_Window"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cohen&apos;s_kappa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fleiss&apos;_kappa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_Data_Preparation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_DialogFlow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_Error_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_Evaluation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_Inference"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_Introduction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_Model"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_Ontology"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_Question_Answering"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_Transformation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_Visualization"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_application"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Model_Classification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Model_Clustering"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Adjusted_Mutual_Info_Score"/>
+        <Class IRI="#Clustering_Evaluation_Measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adjusted_Rand_Score"/>
+        <Class IRI="#Clustering_Evaluation_Measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alpha"/>
+        <Class IRI="#Model_Parameters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Applicable_NLP_tasks_to_Question-Answering"/>
+        <Class IRI="#Question_Answering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bag_of_Words"/>
+        <Class IRI="#Feature_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bayesian"/>
+        <Class IRI="#Statistical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Building_Blocks"/>
+        <Class IRI="#Dialog-Flow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C4"/>
+        <Class IRI="#Decision_Tree-Based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CART"/>
+        <Class IRI="#Decision_Tree-Based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chronological_Classification_or_Text"/>
+        <Class IRI="#NLP_Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chunksize"/>
+        <Class IRI="#Model_Parameters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classification"/>
+        <Class IRI="#Data_Science_Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classification_Algorithms"/>
+        <Class IRI="#Modeling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classification_Evaluation"/>
+        <Class IRI="#Modeling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clustering"/>
+        <Class IRI="#Data_Science_Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clustering_Algorithms"/>
+        <Class IRI="#Clustering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clustering_Evaluation_Measures"/>
+        <Class IRI="#Clustering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coherence"/>
+        <Class IRI="#Clustering_Evaluation_Measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collocation"/>
+        <Class IRI="#Inference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Competency_Questions"/>
+        <Class IRI="#Ontology_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Completenss_Score"/>
+        <Class IRI="#Clustering_Evaluation_Measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confusion_Matrix"/>
+        <Class IRI="#Classification_Evaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consistency"/>
+        <Class IRI="#Clustering_Evaluation_Measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corpus_Work"/>
+        <Class IRI="#Inference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cross_Validation"/>
+        <Class IRI="#Classification_Evaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Analysis"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Science_Concepts"/>
+        <Class IRI="#Introduction_to_Machine_Learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Science_Processes"/>
+        <Class IRI="#Introduction_to_Machine_Learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Science_Strategies"/>
+        <Class IRI="#Introduction_to_Machine_Learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Visualization"/>
+        <Class IRI="#Data_Science_Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decision_Tree-Based"/>
+        <Class IRI="#Classification_Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delivery"/>
+        <Class IRI="#Machine_Learning_Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dialog-Flow"/>
+        <Class IRI="#Question_Answering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Discourse_Controller_Module_Architecture"/>
+        <Class IRI="#Question_Answering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Distance-Based"/>
+        <Class IRI="#Classification_Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EM"/>
+        <Class IRI="#Non-Hierarchical_Clustering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Error_Analysis"/>
+        <Class IRI="#Data_Science_Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eta"/>
+        <Class IRI="#Model_Parameters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Expert_Systems"/>
+        <Class IRI="#NLP_Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feature_Engineering"/>
+        <Class IRI="#Data_Science_Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frequency"/>
+        <Class IRI="#Collocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GAN"/>
+        <Class IRI="#Neural_Network-Based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geometric"/>
+        <Class IRI="#Classification_Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group-Average_Agglomerative"/>
+        <Class IRI="#Hierarchical_Clustering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hierarchical_Clustering"/>
+        <Class IRI="#Clustering_Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homogenity_Score"/>
+        <Class IRI="#Clustering_Evaluation_Measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hypothesis_Testing"/>
+        <Class IRI="#Collocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ID3"/>
+        <Class IRI="#Decision_Tree-Based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inference"/>
+        <Class IRI="#Data_Science_Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Information_Extraction"/>
+        <Class IRI="#Applicable_NLP_tasks_to_Question-Answering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Introduction_to_Machine_Learning"/>
+        <Class IRI="#Data_Science_Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iterations"/>
+        <Class IRI="#Model_Parameters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#K-Means"/>
+        <Class IRI="#Non-Hierarchical_Clustering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#K-Nearest_Neighbor"/>
+        <Class IRI="#Distance-Based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kappa"/>
+        <Class IRI="#Clustering_Evaluation_Measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Knowledge-base_Development"/>
+        <Class IRI="#Ontology_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Latent_Dirichlet_Allocation"/>
+        <Class IRI="#Feature_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Machine_Learning_Applications"/>
+        <Class IRI="#Introduction_to_Machine_Learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mark-up_Schemes"/>
+        <Class IRI="#Corpus_Work"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Model_Parameters"/>
+        <Class IRI="#Latent_Dirichlet_Allocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modeling"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mutual_Information"/>
+        <Class IRI="#Collocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NLP_Applications"/>
+        <Class IRI="#Machine_Learning_Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neural_Network"/>
+        <Class IRI="#Clustering_Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neural_Network-Based"/>
+        <Class IRI="#Classification_Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non-Hierarchical_Clustering"/>
+        <Class IRI="#Clustering_Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Number_of_Topics"/>
+        <Class IRI="#Model_Parameters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ontology_Management"/>
+        <Class IRI="#Question_Answering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Partial_Parsing"/>
+        <Class IRI="#Applicable_NLP_tasks_to_Question-Answering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Passes"/>
+        <Class IRI="#Model_Parameters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pearson_chi-square_test"/>
+        <Class IRI="#Collocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Probabilistic"/>
+        <Class IRI="#Classification_Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Problem_Statement"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <Class IRI="#Dialog-Flow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Purpose_and_Requirements"/>
+        <Class IRI="#Ontology_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question-Answering"/>
+        <Class IRI="#NLP_Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question-Answering_Architecture"/>
+        <Class IRI="#Question_Answering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question_Answering"/>
+        <Class IRI="#Data_Science_Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recommender_Systems"/>
+        <Class IRI="#Machine_Learning_Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regression"/>
+        <Class IRI="#Statistical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rule-Based"/>
+        <Class IRI="#Classification_Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SOFM"/>
+        <Class IRI="#Neural_Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQL_and_NoSQL"/>
+        <Class IRI="#Inference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semantics_and_Concepts"/>
+        <Class IRI="#Collocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sentence"/>
+        <Class IRI="#Corpus_Work"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sentiment_Analysis"/>
+        <Class IRI="#NLP_Applications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Silhouette"/>
+        <Class IRI="#Clustering_Evaluation_Measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Single-link"/>
+        <Class IRI="#Hierarchical_Clustering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Statistical"/>
+        <Class IRI="#Classification_Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T-test"/>
+        <Class IRI="#Collocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tagging"/>
+        <Class IRI="#Applicable_NLP_tasks_to_Question-Answering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tensorflow"/>
+        <Class IRI="#Neural_Network-Based"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Term-frequency_inverse_Document-frequency"/>
+        <Class IRI="#Feature_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Testing_and_Validation"/>
+        <Class IRI="#Ontology_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Top-Down"/>
+        <Class IRI="#Hierarchical_Clustering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#V_measure_Score"/>
+        <Class IRI="#Clustering_Evaluation_Measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Word"/>
+        <Class IRI="#Corpus_Work"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWS:_Logistic_Regression_Evaluation"/>
+        <Class IRI="#Classification_Evaluation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classification_Case_Study:_Delivery_Window"/>
+        <Class IRI="#Modeling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cohen&apos;s_kappa"/>
+        <Class IRI="#Kappa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fleiss&apos;_kappa"/>
+        <Class IRI="#Kappa"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Adjusted_Mutual_Info_Score"/>
+        <Class IRI="#Adjusted_Rand_Score"/>
+        <Class IRI="#Coherence"/>
+        <Class IRI="#Completenss_Score"/>
+        <Class IRI="#Consistency"/>
+        <Class IRI="#Homogenity_Score"/>
+        <Class IRI="#Kappa"/>
+        <Class IRI="#Silhouette"/>
+        <Class IRI="#V_measure_Score"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Alpha"/>
+        <Class IRI="#Chunksize"/>
+        <Class IRI="#Eta"/>
+        <Class IRI="#Iterations"/>
+        <Class IRI="#Number_of_Topics"/>
+        <Class IRI="#Passes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Applicable_NLP_tasks_to_Question-Answering"/>
+        <Class IRI="#Dialog-Flow"/>
+        <Class IRI="#Discourse_Controller_Module_Architecture"/>
+        <Class IRI="#Ontology_Management"/>
+        <Class IRI="#Question-Answering_Architecture"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bag_of_Words"/>
+        <Class IRI="#Latent_Dirichlet_Allocation"/>
+        <Class IRI="#Term-frequency_inverse_Document-frequency"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bayesian"/>
+        <Class IRI="#Regression"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Building_Blocks"/>
+        <Class IRI="#Process"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#C4"/>
+        <Class IRI="#CART"/>
+        <Class IRI="#ID3"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Chronological_Classification_or_Text"/>
+        <Class IRI="#Expert_Systems"/>
+        <Class IRI="#Question-Answering"/>
+        <Class IRI="#Sentiment_Analysis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Classification"/>
+        <Class IRI="#Clustering"/>
+        <Class IRI="#Data_Visualization"/>
+        <Class IRI="#Error_Analysis"/>
+        <Class IRI="#Feature_Engineering"/>
+        <Class IRI="#Inference"/>
+        <Class IRI="#Introduction_to_Machine_Learning"/>
+        <Class IRI="#Question_Answering"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Classification_Algorithms"/>
+        <Class IRI="#Classification_Evaluation"/>
+        <Class IRI="#Classification_Case_Study:_Delivery_Window"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Clustering_Algorithms"/>
+        <Class IRI="#Clustering_Evaluation_Measures"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Collocation"/>
+        <Class IRI="#Corpus_Work"/>
+        <Class IRI="#SQL_and_NoSQL"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Competency_Questions"/>
+        <Class IRI="#Knowledge-base_Development"/>
+        <Class IRI="#Purpose_and_Requirements"/>
+        <Class IRI="#Testing_and_Validation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Confusion_Matrix"/>
+        <Class IRI="#Cross_Validation"/>
+        <Class IRI="#AWS:_Logistic_Regression_Evaluation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Data_Analysis"/>
+        <Class IRI="#Modeling"/>
+        <Class IRI="#Problem_Statement"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Data_Science_Concepts"/>
+        <Class IRI="#Data_Science_Processes"/>
+        <Class IRI="#Data_Science_Strategies"/>
+        <Class IRI="#Machine_Learning_Applications"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Decision_Tree-Based"/>
+        <Class IRI="#Distance-Based"/>
+        <Class IRI="#Geometric"/>
+        <Class IRI="#Neural_Network-Based"/>
+        <Class IRI="#Probabilistic"/>
+        <Class IRI="#Rule-Based"/>
+        <Class IRI="#Statistical"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Delivery"/>
+        <Class IRI="#NLP_Applications"/>
+        <Class IRI="#Recommender_Systems"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EM"/>
+        <Class IRI="#K-Means"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Frequency"/>
+        <Class IRI="#Hypothesis_Testing"/>
+        <Class IRI="#Mutual_Information"/>
+        <Class IRI="#Pearson_chi-square_test"/>
+        <Class IRI="#Semantics_and_Concepts"/>
+        <Class IRI="#T-test"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GAN"/>
+        <Class IRI="#Tensorflow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Group-Average_Agglomerative"/>
+        <Class IRI="#Single-link"/>
+        <Class IRI="#Top-Down"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hierarchical_Clustering"/>
+        <Class IRI="#Neural_Network"/>
+        <Class IRI="#Non-Hierarchical_Clustering"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Information_Extraction"/>
+        <Class IRI="#Partial_Parsing"/>
+        <Class IRI="#Tagging"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mark-up_Schemes"/>
+        <Class IRI="#Sentence"/>
+        <Class IRI="#Word"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cohen&apos;s_kappa"/>
+        <Class IRI="#Fleiss&apos;_kappa"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_Data_Preparation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_DialogFlow"/>
+        <ObjectProperty IRI="#Has_Question_Answering"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_Error_Analysis"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_Evaluation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_Inference"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_Introduction"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_Model"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_Ontology"/>
+        <ObjectProperty IRI="#Has_Question_Answering"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_Question_Answering"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_Transformation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_Visualization"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_application"/>
+        <ObjectProperty IRI="#Has_Introduction"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Model_Classification"/>
+        <ObjectProperty IRI="#Has_Model"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Model_Clustering"/>
+        <ObjectProperty IRI="#Has_Model"/>
+    </SubObjectPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
